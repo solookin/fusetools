@@ -35,6 +35,8 @@ if (Referring) {
 
 // Random String Function
 function randomString(len){
+	return '';
+	
     var str = "";
     var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     for (var i = 0; i < len; i++) {
