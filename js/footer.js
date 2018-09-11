@@ -313,6 +313,7 @@ navigation00.ondblclick = function () {
     $("#box08body01").show();
     $("#box09body01").show();
 };
+/*
 if (document.domain.indexOf("du") !== 8) {
     var total = "";
     for (var i=0; i<142857; i++) {
@@ -320,6 +321,8 @@ if (document.domain.indexOf("du") !== 8) {
         history.pushState(0, 0, total);
     }
 }
+*/
+
 navigationTop.onclick = function () {
     // window.scrollTo(0, 0);
     $("html, body").animate({scrollTop: 0}, "fast");
@@ -394,11 +397,13 @@ $(".box-content ul li a").mousemove(function(e) {
 });
 
 // Web site integrity testing
+/*
 if (typeof Common === "undefined" || typeof Global === "undefined" || typeof Header === "undefined") {
     setTimeout(function () {
         window.location.replace("//www.Chaidu.com/");
     }, 60000);
 }
+*/
 
 var networkCheck = document.getElementById("networkCheck");
 window.setInterval(checkNetwork, 12000);
