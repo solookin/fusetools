@@ -405,6 +405,7 @@ if (typeof Common === "undefined" || typeof Global === "undefined" || typeof Hea
 }
 */
 
+/*
 var networkCheck = document.getElementById("networkCheck");
 window.setInterval(checkNetwork, 12000);
 function checkNetwork() {
@@ -418,6 +419,7 @@ function checkNetwork() {
         networkCheck.style.display = "block";
     }
 }
+*/
 
 // 红包
 var hongbao;
