@@ -187,6 +187,10 @@ div, input, li {
     border: 1px solid #3AB25A;
 }
 
+.red {
+	color: #f33;
+}
+
 .content {
     margin-top: 10px;
     width: 1203px;
