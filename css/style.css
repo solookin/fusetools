@@ -3,6 +3,7 @@ html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,
 body {
     color: #333;
     background: #fff;
+	font-family: verdana, Verdana, "ËÎÌו";
 }
 div, input, li {
     -webkit-box-sizing: border-box;
@@ -110,11 +111,11 @@ div, input, li {
     border: 2px solid #3AB25A;
     background-color: #3AB25A;
     padding: 4px 8px;
-    font-size: 24px;
+    font-size: 20px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    font-weight: bold;
+    font-weight: normal;
 }
 .input-group > .input-group-addon:hover {
     color: #fff;
@@ -234,14 +235,14 @@ div, input, li {
 }
 
 .content > .box-tab > ul > li.first > h2 {
-    color: #ddd;
-    font-size: 24px;
+    color: #fff;
+    font-size: 20px;
     border-bottom: 1px solid #3AB25A;
     background-color: #3AB25A;
     -webkit-border-top-left-radius: 6px;
     -moz-border-top-left-radius: 6px;
     border-top-left-radius: 6px;
-    font-weight: bold;
+    font-weight: normal;
     cursor: default;
 }
 .content > .box-tab > ul > li.first > h2:hover {
@@ -286,8 +287,9 @@ div, input, li {
     color: #333;
     line-height: 47px;
     text-indent: 23px;
-    font-size: 18px;
+    font-size: 16px;
     overflow: hidden;
+	font-family:verdana,Verdana;
 }
 .content > .box-content > ul > li > a:hover {
     color: #f33;
@@ -383,8 +385,8 @@ div, input, li {
     color: #ddd;
     background-color: #3AB25A;
     border-bottom: 1px solid #bbb;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: normal;
     -webkit-border-top-left-radius: 6px;
     -moz-border-top-left-radius: 6px;
     border-top-left-radius: 6px;
