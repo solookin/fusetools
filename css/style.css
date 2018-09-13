@@ -187,10 +187,6 @@ div, input, li {
     border: 1px solid #3AB25A;
 }
 
-.red {
-	color: #f33;
-}
-
 .content {
     margin-top: 10px;
     width: 1203px;
@@ -294,7 +290,7 @@ div, input, li {
     text-indent: 23px;
     font-size: 16px;
     overflow: hidden;
-	font-family:Verdana;
+	font-family: "Verdana";
 }
 .content > .box-content > ul > li > a:hover {
     color: #f33;
@@ -305,6 +301,10 @@ div, input, li {
 }
 .content > .box-content > ul > li.important > a:hover {
     color: #f33;
+}
+
+.content > .box-content > ul > li > .red {
+	color: #f33;
 }
 
 .start {
