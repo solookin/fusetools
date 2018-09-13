@@ -170,13 +170,14 @@ div, input, li {
 .submit > input {
     color: #fff;
     border: 1px solid #3AB25A;
-    font-size: 18px;
+    font-size: 14px;
     padding: 2px 4px;
     background-color: #3AB25A;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
     cursor: pointer;
+	font-family: "Verdana";
 }
 .submit > input:hover {
     color: #fff;

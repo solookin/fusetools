@@ -363,7 +363,7 @@ document.getElementById("top").onclick = function () {
 };
 
 // CanRunAds
-if (typeof CanRunAds === "undefined") { console.log("%c恭喜：您的广告屏蔽插件工作正常！", "color: green;"); }
+// if (typeof CanRunAds === "undefined") { console.log("%c恭喜：您的广告屏蔽插件工作正常！", "color: green;"); }
 
 // body
 function tab(Obj, box, BoxBody){
