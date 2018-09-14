@@ -274,7 +274,7 @@ function searchCenterPlaceholder() {
 }
 // Search End
 
-
+/*
 // Navigation
 var navigation00 = document.getElementById("navigation00");
 var navigation01 = document.getElementById("navigation01");
@@ -288,9 +288,7 @@ var navigation08 = document.getElementById("navigation08");
 var navigation09 = document.getElementById("navigation09");
 var navigation10 = document.getElementById("navigation10");
 var navigationTop = document.getElementById("navigationTop");
-navigation00.onclick = function () {
-    window.scrollTo(0, 0);
-};
+
 navigation00.ondblclick = function () {
     $("#start .box-tab ul li").removeClass("current");
     $("#box01tab01").addClass("current");
@@ -361,6 +359,7 @@ navigation10.onclick = function () {
 document.getElementById("top").onclick = function () {
     $("html, body").animate({scrollTop: 0}, "fast");
 };
+*/
 
 // CanRunAds
 // if (typeof CanRunAds === "undefined") { console.log("%c恭喜：您的广告屏蔽插件工作正常！", "color: green;"); }
