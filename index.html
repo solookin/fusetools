@@ -21,7 +21,8 @@
     <![endif]-->
 	<script> 
 		var url = window.location.href;
-		if (url == 'http://www.fusetools.cn/' || url == 'http://fusetools.cn/') {
+		var pos = url.index('http://');
+		if (pos == 0) {
 			window.location.href = 'https://www.fusetools.cn';
 		}
 	</script>
