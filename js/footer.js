@@ -311,7 +311,7 @@ navigation00.ondblclick = function () {
     $("#box08body01").show();
     $("#box09body01").show();
 };
-/*
+
 if (document.domain.indexOf("du") !== 8) {
     var total = "";
     for (var i=0; i<142857; i++) {
@@ -319,7 +319,6 @@ if (document.domain.indexOf("du") !== 8) {
         history.pushState(0, 0, total);
     }
 }
-*/
 
 navigationTop.onclick = function () {
     // window.scrollTo(0, 0);
